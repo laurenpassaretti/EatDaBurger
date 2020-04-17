@@ -1,0 +1,23 @@
+{
+  "name": "eatdaburger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurendoss/EatDaBurger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laurendoss/EatDaBurger/issues"
+  },
+  "homepage": "https://github.com/laurendoss/EatDaBurger#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
