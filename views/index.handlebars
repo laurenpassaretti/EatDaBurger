@@ -1,10 +1,6 @@
 <h1>Let's Eat Burgers!</h1>
 
-
-
-
-<ul>
- 
+<h2>Burgers You Need to Eat!</h2>
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
@@ -13,13 +9,11 @@
   {{/each}}
 </ul>
 
-
-  <h2>Cats that are sleepy!</h2>
-
+<h2>Burgers You have Eaten!</h2>
 <ul>
   {{#each burgers}}
     {{#if devoured}}
-      {{> burgers/burger-block devoured=true}}
+      {{> burgers/burgers-block devoured=true}}
     {{/if}}
   {{/each}}
 </ul>
