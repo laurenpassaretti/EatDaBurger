@@ -1,4 +1,4 @@
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSQFTMm0nU-aZAgb0Pm_a4AgjZiN8zSWtl7LVzzh6ovHJrYIxhQ&usqp=CAU" alt="CuteBurger" height="200" width="350" class="center">
+<img src="https://lh3.googleusercontent.com/proxy/sEGZnrF0Ry3Beg4NjI2IVy9xOSMRvBlfWnOvSHlFUwLaaSheK8RGoyORgmXijXUlPo9emm-QFWWmGQh91NupNQY_-A" alt="CuteBurger" height="200" width="350" class="center">
 <h1>Let's Eat Burgers!</h1>
 
 <h2>Burgers You Need to Eat!</h2>
@@ -6,6 +6,7 @@
   {{#each burgers}}
     {{#unless devoured}}
       {{> burgers/burgers-block devoured=false}}
+      <button class= "change-devoured" data-id="{{id}}" data-newDevoured="{{devoured}}" type="Devoured">Devour It!</button>
     {{/unless}}
   {{/each}}
 </ul>
