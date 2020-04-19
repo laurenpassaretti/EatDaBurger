@@ -10,7 +10,7 @@ var connection = mysql.createConnection({
   password: "Mailey2020",
   database: "burgers_db"
 });
-}; ß
+}; 
 
 
 connection.connect(function(err) {
