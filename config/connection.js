@@ -16,5 +16,5 @@ connection.connect(function(err) {
   }
   console.log("connected as id " + connection.threadId);
 });
-ß
+
 module.exports = connection;
