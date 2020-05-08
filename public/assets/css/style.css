@@ -2,7 +2,7 @@ li {
     text-align: center;
     padding: 5px;
     margin: 5px;
-    background: white;
+    background: #F5F5F5;
     list-style-type: none;
   }
   
@@ -26,7 +26,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     overflow:hidden; 
-    background-color: white;
+    background-color: #F5F5F5;
 }
 /* .center ::before {
   background-color: bisque;
@@ -46,7 +46,7 @@ h1 {
   margin-left: 48%;
 }
 body {
-  background-color: white;
+  background-color: #F5F5F5;
 }
 
 .change-devoured {
