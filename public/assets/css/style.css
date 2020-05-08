@@ -26,7 +26,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     overflow:hidden; 
-    background-color: bisque;
+    background-color: white;
 }
 /* .center ::before {
   background-color: bisque;
@@ -46,7 +46,7 @@ h1 {
   margin-left: 48%;
 }
 body {
-  background-color: bisque ;
+  background-color: white;
 }
 
 .change-devoured {
